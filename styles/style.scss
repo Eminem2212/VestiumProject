@@ -1,0 +1,47 @@
+body {
+    margin: auto;
+    .navbar {
+        background-color: #f8f0e3;
+        justify-content: space-between;
+        height: 10vh;
+    }
+    .container {
+        text-decoration: none;
+    }
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.playApple {
+    position: absolute;
+    right: 5vw;
+}
+
+.playStore {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #020636;
+    color: white;
+    margin-right: 10px;
+    width: 150px;
+    
+}
+.apple {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 120px;
+}
+section{
+    background-color: #040833;
+    justify-content: flex-start;
+    color: #f8f0e3;
+    .solidbox{
+        background-color: silver;
+        border-radius: 5px;
+       
+        color: #f8f0e3;
+
+    }
+}
