@@ -25,13 +25,13 @@ body {
     background-color: #020636;
     color: white;
     margin-right: 10px;
-    width: 150px;
+    width: 130px;
     
 }
 .apple {
     border: 1px solid black;
     border-radius: 5px;
-    width: 120px;
+    width: 130px;
 }
 section{
     background-color: #040833;
@@ -66,7 +66,7 @@ section{
     color: black;
     border: 1px solid black;
     border-radius: 5px;
-    width: 200px;
+    width: 150px;
 }
 .Apple2{
     display: flex;
@@ -74,12 +74,59 @@ section{
     color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 150px;
+    width: 130px;
     margin-left:10px ;
 }
 .container3{
     color: #020636;
     background-color:#F8F0E3;
-    ;
-}
+    height: 800px;
 
+    .AboutUs{
+position: absolute;
+right: 10px;
+bottom: -800px;
+
+    }
+    
+    p{
+        line-height: 1.5;
+        margin-top: 30px;
+    }
+
+
+    .WhiteplayApple3{
+        margin-top: 100px;
+        .PlayStore3{
+        
+            background-color: #D65123;
+            color: black;
+            border: 1px solid;
+            border-radius: 5px;
+            width: 170px;
+            margin-left:10px;
+            height: 60px;
+            
+        }
+        .Apple3{
+            background-color: #040833;
+            color: white;
+            border: 1px solid;
+            border-radius: 5px;
+            width: 170px;
+            margin-left:10px ;
+            height: 60px;
+            margin-left: 30px;
+           
+        }
+    }
+    
+}
+.image{
+    position: absolute;
+    top: 750px;
+}
+.Section-2{
+    height: 800px;
+   
+}
