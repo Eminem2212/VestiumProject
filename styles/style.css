@@ -51,5 +51,51 @@ section .solidbox {
   background-color: silver;
   border-radius: 5px;
   color: #f8f0e3;
+  width: 300px;
+}
+
+section .PlayWhite {
+  background-color: #f8f0e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+section .girlTable {
+  padding-top: 100px;
+}
+
+.WhiteplayApple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 9vw;
+}
+
+.PlayStore2 {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.Apple2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #D65123;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.container3 {
+  color: #020636;
+  background-color: #F8F0E3;
 }
 /*# sourceMappingURL=style.css.map */
