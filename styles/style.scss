@@ -62,7 +62,7 @@ section{
    bottom: 9vw;
 }
 .PlayStore2{
-    background-color: white;
+    background-color: #f8f0e3;
     color: black;
     border: 1px solid black;
     border-radius: 5px;
@@ -80,7 +80,7 @@ section{
 .container3{
     color: #020636;
     background-color:#F8F0E3;
-    height: 800px;
+    height: 1200px;
 
     .AboutUs{
 position: absolute;
@@ -130,3 +130,32 @@ bottom: -800px;
     height: 800px;
    
 }
+
+.ManAndWoman{
+    margin-top: -30px;
+    background-color: #F8F0E3;
+    color: black;
+
+
+.rowAbout{
+    height: 700px;
+    
+    .checkBox{
+    width: 20px;
+    height: 20px;
+    }
+    button{
+        margin-top: 5vh;
+        width:16vw;
+        min-width: 16vw;
+        height: 6vh;
+        min-height: 6vh;
+        color: #F8F0E3;
+        background-color: #040833;
+        border: 1px solid #040833;
+        border-radius: 5px;
+        border-bottom: #F8F0E3;
+    }
+    }
+}
+
