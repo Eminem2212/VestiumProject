@@ -115,7 +115,7 @@ section .girlTable {
 .container3 .AboutUs {
   position: absolute;
   right: 10px;
-  bottom: -1000px;
+  bottom: -650px;
 }
 
 .container3 p {
@@ -124,7 +124,8 @@ section .girlTable {
 }
 
 .container3 .WhiteplayApple3 {
-  margin-top: 300px;
+  position: absolute;
+  margin-bottom: 1000px;
 }
 
 .container3 .WhiteplayApple3 .PlayStore3 {
@@ -133,6 +134,7 @@ section .girlTable {
   border: 1px solid;
   border-radius: 5px;
   width: 170px;
+  margin-top: 70px;
   margin-left: 10px;
   height: 60px;
 }
@@ -145,6 +147,7 @@ section .girlTable {
   width: 170px;
   margin-left: 10px;
   height: 60px;
+  margin-top: 70px;
   margin-left: 30px;
 }
 
@@ -158,13 +161,13 @@ section .girlTable {
 }
 
 .ManAndWoman {
-  margin: -150px;
+  margin: -250px;
   background-color: #f8f0e3;
   color: black;
 }
 
 .ManAndWoman .rowAbout {
-  height: 600px;
+  height: 800px;
 }
 
 .ManAndWoman .rowAbout .checkBox {
@@ -195,19 +198,24 @@ section .girlTable {
   }
 }
 
-.text-center {
-  margin: auto;
-  background-image: url(/images/backgroundImg.png) !important;
-  background-repeat: no-repeat;
+.manwoman {
+  position: absolute;
+  top: 1750px;
 }
 
-.text-center .playApple4 {
+.text-center {
+  background-image: url(/images/backgroundImg.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playApple4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.text-center .PlayStore4 {
+.PlayStore4 {
   background-color: #d65123;
   color: #f8f0e3;
   border: 1px solid black;
@@ -217,7 +225,7 @@ section .girlTable {
   padding: 0px 15px;
 }
 
-.text-center .Apple4 {
+.Apple4 {
   background-color: #f8f0e3;
   color: #020636;
   border: 1px solid black;
@@ -227,5 +235,10 @@ section .girlTable {
   margin-left: 10px;
   margin-left: 30px;
   padding: 10px 15px;
+}
+
+.section4 {
+  background-color: #f8f0e3;
+  color: #020636;
 }
 /*# sourceMappingURL=style.css.map */

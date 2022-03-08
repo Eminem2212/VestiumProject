@@ -92,7 +92,7 @@ section {
     .AboutUs {
         position: absolute;
         right: 10px;
-        bottom: -1000px;
+        bottom: -650px;
     }
 
     p {
@@ -101,13 +101,15 @@ section {
     }
 
     .WhiteplayApple3 {
-        margin-top: 300px;
+        position: absolute;
+        margin-bottom: 1000px;
         .PlayStore3 {
             background-color: #d65123;
             color: black;
             border: 1px solid;
             border-radius: 5px;
             width: 170px;
+            margin-top: 70px;
             margin-left: 10px;
             height: 60px;
         }
@@ -119,6 +121,7 @@ section {
             width: 170px;
             margin-left: 10px;
             height: 60px;
+            margin-top: 70px;
             margin-left: 30px;
         }
     }
@@ -132,12 +135,12 @@ section {
 }
 
 .ManAndWoman {
-    margin: -150px;
+    margin: -250px;
     background-color: #f8f0e3;
     color: black;
 
     .rowAbout {
-        height: 600px;
+        height: 800px;
 
         .checkBox {
             width: 20px;
@@ -163,10 +166,16 @@ section {
             }
         }
 
+.manwoman{
+    position: absolute;
+top: 1750px;
+}
+
     .text-center {
-        margin: auto;
         background-image: url(/images/backgroundImg.png) !important;
         background-repeat: no-repeat;
+        background-size: cover;
+    }
 
         .playApple4 {
             justify-content: center;
@@ -191,5 +200,8 @@ section {
             margin-left: 30px;
             padding: 10px 15px;
         }
-    }
-
+    
+.section4{
+    background-color: #f8f0e3;
+    color: #020636;
+}
