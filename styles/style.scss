@@ -26,136 +26,170 @@ body {
     color: white;
     margin-right: 10px;
     width: 130px;
-    
 }
 .apple {
     border: 1px solid black;
     border-radius: 5px;
     width: 130px;
 }
-section{
+section {
     background-color: #040833;
     justify-content: flex-start;
     color: #f8f0e3;
-    .solidbox{
+    .solidbox {
         background-color: silver;
         border-radius: 5px;
         color: #f8f0e3;
         width: 300px;
-
     }
-    .PlayWhite{
+    .PlayWhite {
         background-color: #f8f0e3;
         border: 1px solid black;
         border-radius: 5px;
         margin-right: 10px;
         width: 150px;
     }
-    .girlTable{
-        padding-top:100px ;
+    .girlTable {
+        padding-top: 100px;
     }
 }
 
-.WhiteplayApple{
+.WhiteplayApple {
     display: flex;
-   position: absolute;
-   bottom: 9vw;
+    position: absolute;
+    bottom: 9vw;
 }
-.PlayStore2{
+.PlayStore2 {
     background-color: #f8f0e3;
     color: black;
     border: 1px solid black;
     border-radius: 5px;
     width: 150px;
 }
-.Apple2{
+.Apple2 {
     display: flex;
-    background-color: #D65123;
+    background-color: #d65123;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
     width: 130px;
-    margin-left:10px ;
+    margin-left: 10px;
 }
-.container3{
+.container3 {
     color: #020636;
-    background-color:#F8F0E3;
+    background-color: #f8f0e3;
     height: 1200px;
+    .manTable {
+        @media screen and (max-width: 996px) {
+            display: none;
+        }
 
-    .AboutUs{
-position: absolute;
-right: 10px;
-bottom: -800px;
-
+        position: absolute;
+        left: 10px;
+        top: 770px;
     }
-    
-    p{
+
+    .AboutUs {
+        position: absolute;
+        right: 10px;
+        bottom: -1000px;
+    }
+
+    p {
         line-height: 1.5;
         margin-top: 30px;
     }
 
-
-    .WhiteplayApple3{
-        margin-top: 100px;
-        .PlayStore3{
-        
-            background-color: #D65123;
+    .WhiteplayApple3 {
+        margin-top: 300px;
+        .PlayStore3 {
+            background-color: #d65123;
             color: black;
             border: 1px solid;
             border-radius: 5px;
             width: 170px;
-            margin-left:10px;
+            margin-left: 10px;
             height: 60px;
-            
         }
-        .Apple3{
+        .Apple3 {
             background-color: #040833;
             color: white;
             border: 1px solid;
             border-radius: 5px;
             width: 170px;
-            margin-left:10px ;
+            margin-left: 10px;
             height: 60px;
             margin-left: 30px;
-           
         }
     }
-    
 }
-.image{
+.image {
     position: absolute;
     top: 750px;
 }
-.Section-2{
+.Section-2 {
     height: 800px;
-   
 }
 
-.ManAndWoman{
-    margin-top: -30px;
-    background-color: #F8F0E3;
+.ManAndWoman {
+    margin: -150px;
+    background-color: #f8f0e3;
     color: black;
 
+    .rowAbout {
+        height: 600px;
 
-.rowAbout{
-    height: 700px;
-    
-    .checkBox{
-    width: 20px;
-    height: 20px;
+        .checkBox {
+            width: 20px;
+            height: 20px;
+        }
+            }
+            button {
+                @media screen and (max-width: 996px) {
+                    display: flex;
+                    width: 150px;
+                    padding: 10px 10px 20px 10px;
+                }
+                margin-top: 5vh;
+                width: 16vw;
+                min-width: 16vw;
+                height: 6vh;
+                min-height: 6vh;
+                color: #f8f0e3;
+                background-color: #040833;
+                border: 1px solid #040833;
+                border-radius: 5px;
+                border-bottom: #f8f0e3;
+            }
+        }
+
+    .text-center {
+        margin: auto;
+        background-image: url(/images/backgroundImg.png) !important;
+        background-repeat: no-repeat;
+
+        .playApple4 {
+            justify-content: center;
+        }
+        .PlayStore4 {
+            background-color: #d65123;
+            color: #f8f0e3;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 70px;
+            width: 200px;
+            padding: 0px 15px;
+        }
+        .Apple4 {
+            background-color: #f8f0e3;
+            color: #020636;
+            border: 1px solid black;
+            border-radius: 5px;
+            height: 70px;
+            width: 200px;
+            margin-left: 10px;
+            margin-left: 30px;
+            padding: 10px 15px;
+        }
     }
-    button{
-        margin-top: 5vh;
-        width:16vw;
-        min-width: 16vw;
-        height: 6vh;
-        min-height: 6vh;
-        color: #F8F0E3;
-        background-color: #040833;
-        border: 1px solid #040833;
-        border-radius: 5px;
-        border-bottom: #F8F0E3;
-    }
-    }
-}
 

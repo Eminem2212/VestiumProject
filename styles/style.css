@@ -86,7 +86,7 @@ section .girlTable {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #D65123;
+  background-color: #d65123;
   color: white;
   border: 1px solid black;
   border-radius: 5px;
@@ -96,14 +96,26 @@ section .girlTable {
 
 .container3 {
   color: #020636;
-  background-color: #F8F0E3;
+  background-color: #f8f0e3;
   height: 1200px;
+}
+
+.container3 .manTable {
+  position: absolute;
+  left: 10px;
+  top: 770px;
+}
+
+@media screen and (max-width: 996px) {
+  .container3 .manTable {
+    display: none;
+  }
 }
 
 .container3 .AboutUs {
   position: absolute;
   right: 10px;
-  bottom: -800px;
+  bottom: -1000px;
 }
 
 .container3 p {
@@ -112,11 +124,11 @@ section .girlTable {
 }
 
 .container3 .WhiteplayApple3 {
-  margin-top: 100px;
+  margin-top: 300px;
 }
 
 .container3 .WhiteplayApple3 .PlayStore3 {
-  background-color: #D65123;
+  background-color: #d65123;
   color: black;
   border: 1px solid;
   border-radius: 5px;
@@ -146,13 +158,13 @@ section .girlTable {
 }
 
 .ManAndWoman {
-  margin-top: -30px;
-  background-color: #F8F0E3;
+  margin: -150px;
+  background-color: #f8f0e3;
   color: black;
 }
 
 .ManAndWoman .rowAbout {
-  height: 700px;
+  height: 600px;
 }
 
 .ManAndWoman .rowAbout .checkBox {
@@ -160,16 +172,60 @@ section .girlTable {
   height: 20px;
 }
 
-.ManAndWoman .rowAbout button {
+.ManAndWoman button {
   margin-top: 5vh;
   width: 16vw;
   min-width: 16vw;
   height: 6vh;
   min-height: 6vh;
-  color: #F8F0E3;
+  color: #f8f0e3;
   background-color: #040833;
   border: 1px solid #040833;
   border-radius: 5px;
-  border-bottom: #F8F0E3;
+  border-bottom: #f8f0e3;
+}
+
+@media screen and (max-width: 996px) {
+  .ManAndWoman button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 150px;
+    padding: 10px 10px 20px 10px;
+  }
+}
+
+.text-center {
+  margin: auto;
+  background-image: url(/images/backgroundImg.png) !important;
+  background-repeat: no-repeat;
+}
+
+.text-center .playApple4 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-center .PlayStore4 {
+  background-color: #d65123;
+  color: #f8f0e3;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 70px;
+  width: 200px;
+  padding: 0px 15px;
+}
+
+.text-center .Apple4 {
+  background-color: #f8f0e3;
+  color: #020636;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 70px;
+  width: 200px;
+  margin-left: 10px;
+  margin-left: 30px;
+  padding: 10px 15px;
 }
 /*# sourceMappingURL=style.css.map */
