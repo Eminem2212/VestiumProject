@@ -8,6 +8,10 @@ body .navbar {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 10vh;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
 }
 
 body .container {

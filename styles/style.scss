@@ -4,6 +4,10 @@ body {
         background-color: #f8f0e3;
         justify-content: space-between;
         height: 10vh;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        top: 0;
     }
     .container {
         text-decoration: none;
