@@ -241,4 +241,20 @@ section .girlTable {
   background-color: #f8f0e3;
   color: #020636;
 }
+
+.section5 {
+  background-color: #020636;
+  color: #f8f0e3;
+  height: 500px;
+}
+
+.section5 .lastSection {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section5 .lastSection p {
+  line-height: 2.0;
+}
 /*# sourceMappingURL=style.css.map */
